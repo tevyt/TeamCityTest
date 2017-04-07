@@ -8,6 +8,7 @@ namespace Hello.Test
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.Equals(12, 6);
         }
     }
 }
