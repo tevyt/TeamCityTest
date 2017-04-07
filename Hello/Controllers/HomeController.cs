@@ -10,6 +10,7 @@ namespace Hello.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = "Hello, World";
             return View();
         }
 
